@@ -1,0 +1,196 @@
+*{
+    direction:ltr;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color:darkgray;
+}
+svg{
+    width: 32px;
+    height: 32px;
+    color: black;
+    background-color:chartreuse;
+}
+span{
+    display: flex;
+    position: absolute;
+    top: 18px;
+    left: 44px;
+    color: white;
+    font-size: 20px;
+}
+.header{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.center-part{
+    display: flex;
+    gap: 18px;
+}
+.home:hover ,.services:hover , .work:hover , .process:hover , .about:hover , .careers:hover{
+    width: 56px;
+    height: 24px;
+    background-color: dimgray;
+    text-align: center;
+    border-radius: 5px;
+    transform: scale(0.9);
+}
+.right-part{
+    width: 90px;
+    height: 30px;
+    background-color: #05e63d;
+    text-align: center;
+    border-radius: 8px;
+}
+.right-part:hover{
+    transform: scale(0.9);
+}
+.main{
+    background:url(../image/img1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 80%;
+}
+h1{
+    text-align: center;
+    padding-top: 180px;
+    text-shadow: 6px 3px black;
+    font-size: 40px;
+}
+h2{
+    text-align: center;
+    padding-top: 10px;
+    text-shadow: 6px 3px black;
+    font-size: 36px;
+}
+.a{
+    display: flex;
+    position: absolute;
+    left: 565px;
+    margin: 0px;
+    margin-top: 30px;
+    gap: 30px;
+}
+.our-work{
+    background-color: grey;
+    color: black;
+    text-align: center;
+    border-radius: 4px;
+    width: 100px;
+    height: 40px;
+}
+.contact-us{
+    background-color: rgb(10, 168, 36);
+    color: black;
+    text-align: center;
+    border-radius: 4px;
+    width: 100px;
+}
+.our-work:hover{
+    transform: scale(0.8);
+}
+.contact-us:hover{
+    transform: scale(0.8);
+}
+.spanser{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+img{
+    width: 200px;
+    height: 100px;
+}
+.info{
+    background:url(../image/img1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h3{
+    font-size: 38px;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+.p-1{
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    padding-top: 20px;
+}
+.read{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.design{
+    width: 500px;
+    height: 300px;
+    margin-top: 20px;
+    line-height: 25px;
+    border-right: 2px solid gray;
+}
+.svg-2{
+    font-size: 20px;
+    margin: 10px;
+}
+.p-2{
+    margin: 10px;
+}
+.enginer{
+    width: 500px;
+    height: 300px;
+    margin-top: 20px;
+    line-height: 25px;
+    border-right: 2px solid gray;
+}
+.svg-3{
+    font-size: 20px;
+    margin: 10px;
+}
+.p-3{
+    margin: 10px;
+}
+.management{
+    width: 500px;
+    height: 300px;
+    margin-top: 20px;
+    line-height: 25px;
+    border-right: 2px solid gray;
+}
+.svg-4{
+    font-size: 20px;
+    margin: 10px;
+}
+.p-4{
+    margin: 10px;
+}
+.link{
+    text-align: center;
+    padding: 10px;
+}
+.design-a{
+    display: inline-block;
+    text-align: center;
+    padding-top: 15px;
+    background-color: gray;
+    color: white;
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+}
