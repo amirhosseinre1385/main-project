@@ -5,8 +5,6 @@
 }
 body{
     color: aliceblue;
-    align-items: center;
-    justify-content: center;
     height: 100vh;
     background-color: black;
 }
@@ -21,25 +19,25 @@ svg{
     background-color:chartreuse;
     border-radius: 5px;
 }
-span{
-    display: flex;
+.left-part>a{
+    color: whitesmoke;
+}
+.left-part>span{
     position: absolute;
     top: 24px;
     left: 54px;
-    color: white;
     font-size: 22px;
 }
-.header{
+nav{
     margin: 10px;
     padding: 10px;
     display: flex;
     justify-content: space-between;
 }
 .center-part{
-    display: flex;
     gap: 18px;
 }
-ol{
+.center-part>ol{
     display: flex;
     list-style:none;
     gap: 10px;
@@ -48,7 +46,6 @@ li>a:hover{
     width: 56px;
     height: 24px;
     background-color: dimgray;
-    text-align: center;
     border-radius: 5px;
 }
 .right-part{
@@ -105,7 +102,6 @@ h2{
     padding-left: 33px;
 }
 .spanser>img{
-    box-sizing: border-box;
     box-shadow: 4px 2px 2px green;
 }
 img{
