@@ -10,9 +10,10 @@ body{
 }
 a{
     text-decoration: none;
-    color:darkgray;
+    color:rgb(16, 15, 15);
 }
 svg{
+    margin-left: 7px;
     width: 32px;
     height: 32px;
     color: black;
@@ -24,15 +25,17 @@ svg{
 }
 .left-part>span{
     position: absolute;
-    top: 24px;
-    left: 54px;
+    top: 15px;
+    left: 45px;
     font-size: 22px;
 }
 nav{
-    margin: 10px;
-    padding: 10px;
+    background-color: #585757;
+    margin-bottom: 10px;
+    padding: 10px 0;
     display: flex;
     justify-content: space-between;
+    border-radius: 4px;
 }
 .center-part{
     gap: 18px;
@@ -41,21 +44,24 @@ nav{
     display: flex;
     list-style:none;
     gap: 10px;
+    font-size: 20px;
 }
 li>a:hover{
-    width: 56px;
-    height: 24px;
-    background-color: dimgray;
+    background-color: rgb(26, 197, 10);
     border-radius: 5px;
 }
 .right-part{
     display: flex;
     width: 80px;
     height: 30px;
+    margin-right: 7px;
     background-color: #05e63d;
     text-align: center;
     align-items: center;
     border-radius: 8px;
+}
+.right-part>a:hover{
+    transform: scale(1.05);
 }
 .main{
     background:url(../image/img1.jpg);
@@ -93,7 +99,7 @@ h2{
     height: 40px;
 }
 .center>a:hover{
-    transform: scale(0.8);
+    transform: scale(0.9);
 }
 .spanser{
     margin-top: 20px;
@@ -101,8 +107,8 @@ h2{
     gap: 20px;
     padding-left: 33px;
 }
-.spanser>img{
-    box-shadow: 4px 2px 2px green;
+.spanser>a{
+    box-shadow: 4px 4px 4px green;
 }
 img{
     width: 200px;
