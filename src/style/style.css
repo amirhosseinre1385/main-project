@@ -35,7 +35,6 @@ nav{
     padding: 10px 0;
     display: flex;
     justify-content: space-between;
-    border-radius: 4px;
 }
 .center-part{
     gap: 18px;
